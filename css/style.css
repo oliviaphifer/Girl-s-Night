@@ -92,7 +92,7 @@ section.main-page{
 }
 
 #main-section{
-    background-image: url("../../Images/atlanta-skyline.jpg");
+    background-image: url("../Images/atlanta-skyline.jpg");
     height: 550px;
     width: 960px;
     margin-top: 75px;
@@ -362,7 +362,7 @@ section.main-page h1, section.main-page h2{
  }
 
  .home-tile{
-     background-image: url("../../Images/3-amigos.png");
+     background-image: url("../Images/3-amigos.png");
      width: 320px;
      background-size: contain;
      background-position-y: bottom ; 
@@ -441,7 +441,7 @@ form h4{
 /* Location Landing Pages */
 
 .read-more{
-    color: white;
+    color: pink;
     text-decoration: none;
 }
 
@@ -471,6 +471,10 @@ form h4{
     width: 100%;
     color: white;
     height: 100%;
+}
+
+#result-item{
+    margin: 20px 0;
 }
 
 .location-landing-page section.details{
@@ -605,40 +609,108 @@ section.location-map iframe{
     font-size: 1rem;
 }
 
-.laptop::before{
-    content: url(/Final_Project/Images/laptop\ icon.png);
+.icon-space, .spread{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 10px;
 }
 
-.address::before{
-    content: url(/Final_Project/Images/address\ icon.png);
+.info-entertainment, .info-parking, .info-price, .info-eat, .info-drink, .info-crowd{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.phone::before{
-    content: url(/Final_Project/Images/phone\ icon.png);
+.holder{
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 16px;
 }
 
-.users::before{
-    content: url(/Final_Project/Images/crowd-icon.png);
+.laptop{
+    background-image: url("../Images/laptop\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
 }
 
-.drinks::before{
-    content: url(/Final_Project/Images/cocktail\ icon.png);
+.address{
+    background-image:  url("../Images/address\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
 }
 
-.food::before{
-    content: url(/Final_Project/Images/utinsels\ icon.png);
+.phone{
+    background-image: url("../Images/phone\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
 }
 
-.money::before{
-    content: url(/Final_Project/Images/money\ icon.png);
+.users{
+    background-image: url("../Images/crowd-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
+}
+
+.drinks{
+    background-image:  url("../Images/cocktail\ icon.png");
+    background-image:  url("../Images/money\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
+}
+
+.food{
+    background-image:  url("../Images/utinsels\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
+    
+}
+
+.money{
+    background-image:  url("../Images/money\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
 }
 
 .parking::before{
-    content: url(/Final_Project/Images/car\ icon.png);
+    background-image:  url("../Images/car\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
 }
 
 .entertainment::before{
-    content: url(/Final_Project/Images/entertainment-icon.png);
+    background-image:  url("../Images/entertainment-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    background-color: rgba(35,31,32, 0.6);
+    opacity: 80%;
 }
 
 
@@ -684,7 +756,7 @@ section.location-map iframe{
         .btn-toggle-nav{
             height: 60px;
             width: 60px;
-            background-image: url("../../Images/hamburger-menu.png");
+            background-image: url("../Images/hamburger-menu.png");
             background-repeat: no-repeat;
             background-position: center;
             background-size: 40%;
