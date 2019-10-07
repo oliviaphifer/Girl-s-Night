@@ -77,9 +77,9 @@ $(document).ready(function(){
     {//Beetlecat -- Seafood Restaurant
     //Location Detials
     name: `Beetlecat`,
-    Address: `299 North Highland Avenue Northeast, Atlanta, GA 30307`,
-    Website: `http://www.beetlecatatl.com/`,
-    Phone: `(678) 732-0360`,
+    address: `299 North Highland Avenue Northeast, Atlanta, GA 30307`,
+    website: `http://www.beetlecatatl.com/`,
+    phone: `(678) 732-0360`,
     mapURL: `https://goo.gl/maps/HiYowMpvJ2sQ1fVb9`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.93608798446!2d-84.36095294925848!3d33.762317380590915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5040159d58749%3A0x9e07701e7534c80e!2s299%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030307!5e0!3m2!1sen!2sus!4v1567790051151!5m2!1sen!2sus`,
     //Location
@@ -221,6 +221,7 @@ $(document).ready(function(){
     name: `Candytopia`,
     address: `3535 Peachtree Rd NE Suite 100, Atlanta, GA 30326`,
     website: `http://www.candytopia.com/`,
+    phone: ``,
     mapURL: `https://goo.gl/maps/ygQ8YF93wXzkxrzq5`,
     mapEmbed:`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.47527681347!2d-84.36182094925606!3d33.85164028056627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50f56aaca29cb%3A0x9dbd7d8e8436249e!2s3535%20Peachtree%20Rd%20NE%20%23100%2C%20Atlanta%2C%20GA%2030326!5e0!3m2!1sen!2sus!4v1567792082723!5m2!1sen!2sus`,
     //Location
@@ -433,8 +434,8 @@ $(document).ready(function(){
     //Thai 5 in Little 5 Points - Thai Restaurant
     //Location Details
     name: `Thai5`,
-    website: `https://www.thai5atlanta.com/`,
     address: `1148 Euclid Ave NE #1939, Atlanta, GA 30307`,
+    website: `https://www.thai5atlanta.com/`,
     phone: `(404) 521-3555`,
     mapURL: `https://goo.gl/maps/J2gLrvvCvBYe3saCA`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.829353857268!2d-84.35210624925838!3d33.765075280590274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506a8df5edf21%3A0xafef832ac9daf5db!2s1148%20Euclid%20Ave%20NE%20%231939%2C%20Atlanta%2C%20GA%2030307!5e0!3m2!1sen!2sus!4v1567794312339!5m2!1sen!2sus`,
@@ -577,7 +578,7 @@ $(document).ready(function(){
     //Location Details
     {name: `Front Page News Patio Bar & Grill`,
     address: `351 Moreland Ave NE, Atlanta, GA 30307`,
-    Website: `https://www.frontpagenews.com/`,
+    website: `https://www.frontpagenews.com/`,
     phone: `(404) 475-7777`,
     mapURL: `https://goo.gl/maps/Rg5z9TQzaPx4mLSe7`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.874433989524!2d-84.35089434925841!3d33.76391048059057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506aecb9bf521%3A0xc86a507eb2632f57!2s351%20Moreland%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307!5e0!3m2!1sen!2sus!4v1567795224457!5m2!1sen!2sus`,
@@ -720,8 +721,8 @@ $(document).ready(function(){
     //Tongue and Groove -- Night Club
     //Location Details
     {name: `Tongue and Groove`,
-    website: `http://www.tandgonline.com/`,
     address: `565 Main St NE, Atlanta, GA 30324`,
+    website: `http://www.tandgonline.com/`,
     phone: `(404) 261-2325`,
     mapURL: `https://goo.gl/maps/KWjYNXDo869osc9e8`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.6144848509134!2d-84.37084454925682!3d33.82226048057427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f505c247f3d2dd%3A0xff2c59706ddfbea0!2s565%20Main%20St%20NE%2C%20Atlanta%2C%20GA%2030324!5e0!3m2!1sen!2sus!4v1567796410207!5m2!1sen!2sus`,
@@ -792,9 +793,9 @@ $(document).ready(function(){
     //Rumi's Kitchen - Persian Restaurant
     //Location Details
     {name: `Rumi’s Kitchen`,
-    Address: `6112 Roswell Rd, Atlanta, GA 30328`,
+    address: `6112 Roswell Rd, Atlanta, GA 30328`,
     website: `http://www.rumiskitchen.com/`,
-    Phone: `(404) 477-2100`,
+    phone: `(404) 477-2100`,
     mapURL: `https://goo.gl/maps/hu82xNSXjDpmkGLA8`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.742186522212!2d-84.38198484925418!3d33.92203438054653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50e96d90136af%3A0x69b96a7a5172cb07!2s6112%20Roswell%20Rd%2C%20Sandy%20Springs%2C%20GA%2030328!5e0!3m2!1sen!2sus!4v1567796815484!5m2!1sen!2sus`,
     //Location
@@ -936,9 +937,9 @@ $(document).ready(function(){
     //Zocalo -- gay bar
     //Location Details
     {name: `Zocalo`,
-    Address: `187 10th St NE, Atlanta, GA 30309`,
-    Website: `https://www.eatzocalo.com/`,
-    Phone: `(404) 249-7576`,
+    address: `187 10th St NE, Atlanta, GA 30309`,
+    website: `https://www.eatzocalo.com/`,
+    phone: `(404) 249-7576`,
     mapURL: `https://goo.gl/maps/ajSCU31eDx3E5KKG8`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.191875244399!2d-84.38323428510316!3d33.781542939394754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50442192bce2f%3A0x88b99f8640f42a76!2s187%2010th%20St%20NE%2C%20Atlanta%2C%20GA%2030309!5e0!3m2!1sen!2sus!4v1568596589838!5m2!1sen!2sus`,
     //Location
@@ -1150,9 +1151,9 @@ $(document).ready(function(){
     //Dark Horse Tavern -- American Restaurant
     //Location Details
     {name: `Dark Horse Tavern`,
-    Address: `816 North Highland Avenue Northeast, Atlanta, GA 30306`,
-    Phone: `(404) 873-3607`,
-    Website: `http://www.darkhorseatlanta.com/`,
+    address: `816 North Highland Avenue Northeast, Atlanta, GA 30306`,
+    phone: `(404) 873-3607`,
+    website: `http://www.darkhorseatlanta.com/`,
     mapURL: `https://goo.gl/maps/K9i89Pfr9ZPQTNFh7`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.3756238891615!2d-84.35480284925805!3d33.77679698058703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506a05db093b5%3A0xa2b55f2973552e7d!2sDark%20Horse%20Tavern!5e0!3m2!1sen!2sus!4v1567800232863!5m2!1sen!2sus`,
     //Location
@@ -1222,9 +1223,9 @@ $(document).ready(function(){
     //Tiki Iniki -- Hawaiin Restaurant
     //Location Details
     {name: `Tiki Iniki`,
-    Address: `1044 Greenwood Ave NE, Atlanta, GA 30306`,
-    Website: `http://tikiinikiatl.com/`,
-    Phone: `(833) 285-8454`,
+    address: `1044 Greenwood Ave NE, Atlanta, GA 30306`,
+    website: `http://tikiinikiatl.com/`,
+    phone: `(833) 285-8454`,
     mapURL: `https://goo.gl/maps/TBf3Hq1DovDAx32x8`,
     mapEmbed:  `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.374156610119!2d-84.35526934925807!3d33.77683488058705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506a066e49b91%3A0xb26f2541df5b2782!2s1044%20Greenwood%20Ave%20NE%2C%20Atlanta%2C%20GA%2030306!5e0!3m2!1sen!2sus!4v1567800427588!5m2!1sen!2sus`,
     
@@ -1296,9 +1297,9 @@ $(document).ready(function(){
     //Neighbor’s Pub -- pub
     //Location Details
     {name: `Neighbor’s Pub`,
-    Address: `752 North Highland Avenue Northeast, Atlanta, GA 30306`,
-    Phone: `(404) 872-5440`,
-    Website: `http://www.neighborsatlanta.com/`,
+    address: `752 North Highland Avenue Northeast, Atlanta, GA 30306`,
+    phone: `(404) 872-5440`,
+    website: `http://www.neighborsatlanta.com/`,
     mapURL: `https://goo.gl/maps/GSn6Uz2XrVw61jYB9`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.443492669619!2d-84.35510504925813!3d33.775043880587354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506a09555c861%3A0xaa60f8ed1c4c2339!2s752%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306!5e0!3m2!1sen!2sus!4v1567801128123!5m2!1sen!2sus`,
     //Location
@@ -1441,8 +1442,8 @@ $(document).ready(function(){
     //Location Details
     {name: `Bartaco`,
     address: `3802 Roswell Rd NE, Atlanta, GA 30342`,
-    Website: `https://bartaco.com/location/atlanta-west-midtown/?utm_source=yext&utm_medium=localsearch&utm_campaign=landing-page&utm_content=west-midtown`,
-    Phone: `(678) 871-8226`,
+    website: `https://bartaco.com/location/atlanta-west-midtown/?utm_source=yext&utm_medium=localsearch&utm_campaign=landing-page&utm_content=west-midtown`,
+    phone: `(678) 871-8226`,
     mapURL: `https://goo.gl/maps/ZzbGCSCPbkq97zTD9`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.2133279172103!2d-84.38360664925588!3d33.85839268056427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50f6f5ff3f4f9%3A0x40f5c1841162e686!2s3802%20Roswell%20Rd%20NE%2C%20Atlanta%2C%20GA%2030342!5e0!3m2!1sen!2sus!4v1567982421133!5m2!1sen!2sus`,
     //Location
@@ -1658,7 +1659,7 @@ $(document).ready(function(){
     //Location Details
     
     {name: `A Mano`, 
-    Address: `587 Ralph McGill Blvd NE, Atlanta, GA 30312`,
+    address: `587 Ralph McGill Blvd NE, Atlanta, GA 30312`,
     website: `http://amanoatl.com/`,
     phone: `(404) 549-7727`,
     mapURL: `https://goo.gl/maps/GS4pyGt9vdc9h7zs5`,
@@ -1952,7 +1953,7 @@ $(document).ready(function(){
     //Location Detials
     
     {name: `Bistro Niko`,
-    Address: `3344 Peachtree Rd, Atlanta, GA 30326`,
+    address: `3344 Peachtree Rd, Atlanta, GA 30326`,
     website: `http://www.buckheadrestaurants.com/bistro-niko`,
     phone: `(404) 261-6456`,
     mapURL: `https://goo.gl/maps/nxh9YqvGvRxuNk7Y7`,
@@ -2099,7 +2100,7 @@ $(document).ready(function(){
     
     {name: `Jenny’s Ice Cream`,
     address: `99 Krog St NE, Atlanta, GA 30307`,
-    Website: `http://www.jenis.com/`,
+    website: `http://www.jenis.com/`,
     phone: `(470) 891-8105`,
     mapURL: `https://goo.gl/maps/gHbnXyWqnVVB6Fzu9`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.150488931353!2d-84.3661746492586!3d33.75677688059273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f503f80f6572b3%3A0x21c1447688703507!2s99%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307!5e0!3m2!1sen!2sus!4v1567990520124!5m2!1sen!2sus`,
@@ -2172,7 +2173,7 @@ $(document).ready(function(){
     
     {name: `Little Trouble`,
     address: `1170 Howell Mill Rd NW Suite P-10C, Atlanta, GA 30318`,
-    Website: `http://www.little-trouble.com/`,
+    website: `http://www.little-trouble.com/`,
     phone: `(404) 500-4737`,
     mapURL: `https://goo.gl/maps/fdAvqarFJ9nHDvrt7`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.0257199971893!2d-84.41435404925784!3d33.78583398058447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504ec0bc24547%3A0x1a4fb4ecf7876a85!2s1170%20Howell%20Mill%20Rd%20NW%20Suite%20P-10C%2C%20Atlanta%2C%20GA%2030318!5e0!3m2!1sen!2sus!4v1567990970580!5m2!1sen!2sus`,
@@ -2245,7 +2246,7 @@ $(document).ready(function(){
     
     {name: `Chateau Elan Winery & Resort`,
     address: `100 Rue Charlemagne Dr, Braselton, GA 30517`,
-    Website: `http://www.chateauelan.com/`,
+    website: `http://www.chateauelan.com/`,
     phone: `(678) 425-0900`,
     mapURL: ``,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.782629937518!2d-83.82080804924935!3d34.1007085804975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5eec5abba5e69%3A0x61decee232f7296e!2s100%20Rue%20Charlemagne%20Dr%2C%20Braselton%2C%20GA%2030517!5e0!3m2!1sen!2sus!4v1567991577942!5m2!1sen!2sus`,
@@ -2318,7 +2319,7 @@ $(document).ready(function(){
     
     {name: `CineBistro`,
     address: `1004 Town Blvd, Atlanta, GA 30319`,
-    Website: `https://cinebistro.com/brookhaven/`,
+    website: `https://cinebistro.com/brookhaven/`,
     phone: `(404) 333-0740`,
     mapURL: `https://goo.gl/maps/EJEZPnuUcnQskxzK9`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.7085264300836!2d-84.33971904925554!3d33.87140188056064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f508c139269b4f%3A0x898af0ac3543875e!2s1004%20Town%20Blvd%2C%20Atlanta%2C%20GA%2030319!5e0!3m2!1sen!2sus!4v1567991910213!5m2!1sen!2sus`,
@@ -2538,7 +2539,7 @@ $(document).ready(function(){
     
     {name: `Lake Lanier Islands`,
     address: `7000 Lanier Islands Pkwy Buford, GA 30518`,
-    Website: `https://www.lanierislands.com/`,
+    website: `https://www.lanierislands.com/`,
     phone: `(770) 945-8787`,
     mapURL: `https://goo.gl/maps/AWp5ukQWaRSToZ3L7`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.7659780785348!2d-84.02186934924732!3d34.177900480476566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f591f9033f611b%3A0x7b358f5d8432c25f!2s7000%20Lanier%20Islands%20Pkwy%2C%20Buford%2C%20GA%2030518!5e0!3m2!1sen!2sus!4v1567993028582!5m2!1sen!2sus`,
@@ -2611,8 +2612,8 @@ $(document).ready(function(){
     
     {name: `29 Rooms`, 
     address: `1235 Chattahoochee Ave NW, Atlanta, GA`,
-    Website: ``,
-    Phone: ``,
+    website: ``,
+    phone: ``,
     mapURL: `https://goo.gl/maps/TGmGZbg22578oar5A`,
     mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.362957178813!2d-84.43078484925738!3d33.802945380579736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504d79116b7fb%3A0x8f199a40c6fd94fb!2s1235%20Chattahoochee%20Ave%20NW%2C%20Atlanta%2C%20GA%2030318!5e0!3m2!1sen!2sus!4v1567993442279!5m2!1sen!2sus`,
     //Location
@@ -2789,10 +2790,7 @@ $(document).ready(function(){
         $( 'input[type="checkbox"]' ).prop('checked', false);
             var locationReultsString = JSON.stringify(locationResults);
             localStorage.setItem('selections',locationReultsString);
-    
-
-          
-    })
+  
 
     var newLocations = JSON.parse(localStorage.getItem('selections'));
     //Loop through search results
@@ -2816,7 +2814,7 @@ $(document).ready(function(){
 
         //Populate results location with search results
         $(".results-location-list").append(locationListing);
-        $(".results-location-list").css({"overflow": "auto", "height":"480px"});
+        $(".results-location-list").css({"overflow": "auto", "height":"65vh"});
 
 
         //Load Chosen location into main page
@@ -2824,11 +2822,11 @@ $(document).ready(function(){
 
         //Hide search landing page and show individual listing
         $(".individual-details").removeClass("hide");
-
+        
         //Fill in location contact details
         $(".info-name").text(locationName);
         $(".address-holder").text(locationAddress);
-        $(".website-holder").html(`<a target='_blank' onMouseOver="this.style.color='rgb(35,31,32)"' style='text-decoration: none; color: white' href='" + locationWebsite + "'>Visit Website</a>`);
+        $(".website-holder").html(`<a target='_blank' onMouseOver="this.style.color='rgb(35,31,32)"' style='text-decoration: none' href='" + locationWebsite + "'>Visit Website</a>`);
         $(".phone-holder").text(locationPhone);
         $(".map").html(`<iframe src='" + locationMapEmbed + "' frameborder='0' style='border:0' allowfullscreen></iframe>`);
 
@@ -2986,6 +2984,8 @@ $(document).ready(function(){
             
         })
     });
+	
+	})
 
     $("#search-again").click(function(event) {
         event.preventDefault();
