@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900&display=swap');
+
+/*reset*/
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+  }
+  
+  body{
+    width: 100vh;
+    margin-right: 32vw;
+  }
+
+  #container{
+    width: 960px;
+    background-color: rgb(35,31,32);
+   
+  }
+  
+  /* universal nav bar and footer */
+
+  header{
+    height: 100px;
+    background-color: pink;
+    position: fixed;
+    width: 960px;
+    z-index: 10;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 15;
+  }
+
+  nav img{
+      width: 350px;
+      padding-left: 30px;
+  }
+  
+  nav ul{
+    width: 70%;
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: black; 
+   }
+  
+   nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+  }
+
+  nav ul li a:hover{
+    color: rgb(182, 126, 135);
+  }
+
+  .btn-toggle-nav{
+      visibility: hidden;
+  }
+
+  footer{
+    height: 50px;
+    width: 960px;
+    background-color: pink;
+}
+
+.hide{
+    display: none;
+}
+
+
+  /* main page styling */
+  
+main.main-page{
+    padding: 24px 0 2px 0;
+}
+
+section.main-page{
+    color: white;
+    padding-top: 120px;
+}
+
+#main-section{
+    background-image: url("../../Images/atlanta-skyline.jpg");
+    height: 550px;
+    width: 960px;
+    margin-top: 75px;
+    margin-right: 150px;
+    position: relative;
+}
+
+#homepage-banner{
+    background-color: rgba(182, 126, 135, 0.5);
+    height: 100px;
+    border-radius: 5px;
+    width: 960px;
+    margin-top: -50px;
+    padding: 70px 0;
+    z-index: 5;
+    position: relative;
+}
+
+#homepage-banner ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    height: 90%;
+}
+
+#homepage-banner a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35,31,32);
+    border-radius: 75px;
+    font-size: 1.4em;
+    padding: 25px;
+    font-weight: 600;
+}
+
+#homepage-banner a:hover{
+    color: rgb(35,31,32);
+    background-color: white;
+    border: 1px dotted rgb(35,31,32);
+}
+
+#cocktail-gif img{
+   margin: 0 auto;
+    width: 450px;
+}
+
+#three-amigos{
+    border: 10px solid rgb(182, 126, 135);
+    width: 500px;
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 180px;
+}
+
+ /* main page fonts */
+
+ main section.main-page h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 55px;
+    margin-top: -55px;
+}
+
+ main section.main-page h2{
+    font-size: 33px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 65px;
+    padding-top: 10px;
+    z-index: 2;
+    position: absolute;
+    animation-name: flicker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes flicker{
+    0%{color: white;}
+    50%{color: pink;}
+    100%{color: white;}
+    }
+}
+
+
+
+section.main-page h1, section.main-page h2{
+    margin-left: 50px;
+    display: inline-block;
+}
+
+/* Girls Picks Main Page Styling */
+
+#girls-picks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 600px;
+}
+
+#girls-picks section{
+    padding-top: 100px;
+}
+
+.girls-pics{
+    width: 250px;
+}
+
+#girls-picks section{
+    width: 30%;
+}
+
+.girl-btn{
+    width: 250px;
+    height: 300px;
+    margin: 0 20px;
+    border: 4px solid pink;
+ }
+ 
+ #olivias-picks .btn-pick{
+    margin-top: 10px;
+}
+
+
+#picks-footer{
+    width: 960px;
+}
+
+/* Girls Picks Main Page Font */
+
+#girls-picks a p{
+    background-color: pink;
+    border-radius: 10px;
+    text-align: center;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 0 20px 0;
+}
+
+#girls-picks a{
+    text-decoration: none;
+    color: rgb(35,31,32);
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+
+#girls-picks a p:hover{
+    color: pink;
+    background-color: rgb(35,31,32);
+    border: 1px dotted pink;
+}
+
+
+/* Girls Picks Main Page Images */
+
+#alexandra-pic{
+    margin-top: -60px;;
+}
+
+#niki-pic{
+    margin-top: -60px;;
+}
+
+#olivia-pic{
+    margin-top: -30px;;
+}
+
+/* Girls Night Out Page Grid */
+
+.girls-night-picks-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 7em;
+    width: 100%;
+    max-width: 1280px;
+  }
+  
+  .girls-night-picks-grid a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: rgb(35,31,32);
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid rgb(182, 126, 135);
+  }
+
+  .girls-night-picks-grid a span{
+      display: none;
+  }
+
+  .girls-night-picks-grid a p{
+      padding-bottom: 15px;
+  }
+  
+  .girls-night-picks-img{
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+
+ /* About Page Styling */
+
+  #about-page{
+      background-color: rgb(35,31,32);
+      color: white;
+      padding: 150px 60px;
+  }
+
+  #about-page h1{
+      font-size: 45px;
+      padding: 20px;
+  }
+
+  #about-page p{
+      font-size: 21px;
+      padding: 40px 20px 0px;
+      margin-bottom: -80px;
+      line-height: 1.8;
+  }
+
+  #about-page p::first-letter{
+    font-size: 80px;
+    padding-right: 8px;
+    float: left;
+    line-height: 0.6;
+  }
+
+  #about-page iframe{
+      margin: 0 auto;
+      display: block;
+      padding-top: 20px;
+  }
+
+  /* Girls Night Out Page Styling */
+
+  #girls-night-picks{
+      width: 100vh;
+      text-align: center;
+      padding-bottom: 80px;
+      padding-top: 150px;
+  }
+  
+  #girls-night-picks-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100vh;
+}
+
+ #girls-night-picks h1{
+     font-size: 4em;
+     margin-bottom: 150px;
+     margin-top: 25px;
+     color: white;
+     padding: 30px;
+     border: 5px solid rgb(182, 126, 135);
+ }
+
+ .home-tile{
+     background-image: url("../../Images/3-amigos.png");
+     width: 320px;
+     background-size: contain;
+     background-position-y: bottom ; 
+     background-repeat: no-repeat;
+ }
+
+ .home-tile:hover{
+     background-color: rgba(182, 126, 135, 0.1)
+ }
+
+
+ /* Girls Night Out Page Rating Circles */
+
+ .rating-circle{
+     background-color: rgb(35,31,32);
+     height: 120px;
+     width: 120px;
+     border-radius: 50%;
+     z-index: 10;
+     position: absolute;
+     border: 10px solid rgb(182, 126, 135);
+ }
+
+ .rating-circle span{
+     padding-top: 40%;
+     display: inline-block;
+     font-size: 1.3em;
+     font-weight: 600;
+     color: white;
+ }
+ 
+
+ /* Your picks page */
+
+ form{
+    color: white;
+    padding: 100px 100px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 3em;
+    width: 100%;
+    max-width: 1280px;
+ }
+
+ .list-type{
+     padding-top: 10%;
+     margin-bottom: 2rem;
+ }
+
+ #form-search{
+    background-color: pink;
+    color: rgb(35,31,32);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius:5px;
+    border: none;
+    margin-top: auto;
+}
+
+#form-search:hover{
+    background-color: rgb(35,31,32);
+    color: pink;
+    border: 1px dotted pink;
+    cursor: pointer;
+}
+
+form h4{
+    font-size: 1.2em;
+    border-bottom: 1px dotted pink;
+}
+
+
+
+/* Location Landing Pages */
+
+.read-more{
+    color: white;
+    text-decoration: none;
+}
+
+.read-more:hover{
+    border: 1px dotted pink;
+    cursor: pointer;
+}
+
+.location-landing-page{
+    width: 94%;
+}
+
+.location-landing-page section.search{
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-items: space-around;
+}
+
+.results-location{
+    width: 30%;
+    height: 80vh;
+    text-align: left;
+}
+
+.results-location-list{
+    width: 100%;
+    color: white;
+    height: 100%;
+}
+
+.location-landing-page section.details{
+    background-color: rgb(182, 126, 135);
+    width: 49%;
+    height: 65vh;
+    padding: 30px;
+}
+
+.details h1{
+    font-size: 3em;
+}
+
+.location-info h2{
+    padding-bottom: 10px;
+}
+
+.main-holder{
+    float: left;
+    width: 100%;
+}
+
+#border{
+    border: 2.5px dotted rgb(35,31,32);
+    padding: 12px;
+    height: 57vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+section.location-map{
+    margin-top: 20px;
+}
+
+section.location-map iframe{
+    width: 300px;
+    height: 200px;
+}
+
+.location-landing-page section img{
+    width: 70%;
+    height: 60%;
+}
+
+#location-main{
+    height: 500px;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.location-landing-page section img a{
+   text-decoration: none;
+   color: white;
+}
+
+#container #location-main{
+    height: 700px;
+}
+
+#search-again{
+        background-color: rgba(35,31,32, 0.6);
+        color: white;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius:5px;
+        border: none;
+        margin-top: 30px;
+    }
+    
+#search-again:hover{
+        background-color: rgb(231, 221, 223);
+        color: rgba(35,31,32, 0.6);
+        border: 1px dotted rgb(35,31,32);
+        cursor: pointer;
+    }
+
+
+/* location details*/
+
+.website-link{
+    text-decoration: none;
+    color: white;
+}
+
+.icon-space{
+    width: 2rem;
+    float: left;
+    color: white;
+}
+
+.info-address, .info-website, .info-phone{
+    font-size: 1rem;
+}
+
+.website-holder, .address-holder, .phone-holder{
+    display: block;
+    width: auto;
+    padding-bottom:0.75rem;
+}
+
+.website-holder a:hover{
+    color:  rgb(35,31,32);
+}
+
+.general-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.info-section{
+    padding: 2.5rem;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.spread{
+    display: inline-block;
+    line-height: 1;
+}
+
+.holder{
+    display: block;
+    width: auto;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.laptop::before{
+    content: url(/Final_Project/Images/laptop\ icon.png);
+}
+
+.address::before{
+    content: url(/Final_Project/Images/address\ icon.png);
+}
+
+.phone::before{
+    content: url(/Final_Project/Images/phone\ icon.png);
+}
+
+.users::before{
+    content: url(/Final_Project/Images/crowd-icon.png);
+}
+
+.drinks::before{
+    content: url(/Final_Project/Images/cocktail\ icon.png);
+}
+
+.food::before{
+    content: url(/Final_Project/Images/utinsels\ icon.png);
+}
+
+.money::before{
+    content: url(/Final_Project/Images/money\ icon.png);
+}
+
+.parking::before{
+    content: url(/Final_Project/Images/car\ icon.png);
+}
+
+.entertainment::before{
+    content: url(/Final_Project/Images/entertainment-icon.png);
+}
+
+
+/* media query */
+
+@media (max-width: 768px){
+
+    /* universal reset */
+    body, .container, footer, form, header, #main-section, #homepage-banner, #about-page, #girls-picks, .girls-pages, #girls-night-picks h1{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    /* header image */
+
+
+        header{
+            height: 150px;
+        }
+
+        header img{
+            width: 280px;
+            margin: -5px 0 2px;
+        }
+
+        header nav ul{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        header nav ul li{
+            line-height: 1.8
+        }
+
+        nav ul li a:hover{
+            color: rgb(182, 126, 135);
+          }
+        
+    /* header hamburger sidebar */
+
+        .btn-toggle-nav{
+            height: 60px;
+            width: 60px;
+            background-image: url("../../Images/hamburger-menu.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 40%;
+            background-color: #fff;
+            opacity: 80%;
+            position: fixed;
+            right: 0;
+            top: 0;
+            visibility: visible;
+        }
+
+         /* homepage */
+
+         #main-section{
+            padding-top: 220px;
+        }
+
+        main section.main-page h1{
+            font-size: 35px;
+            margin-right: 20px;
+        }
+        
+         main section.main-page h2{
+            font-size: 27px;
+            width: 100%;
+            padding-right: 80px;
+        }
+        
+        section.main-page h1, section.main-page h2{
+            text-align: left;
+        }
+        
+        #homepage-banner a{
+            font-size: 1em;
+            padding: 20px;
+            font-weight: 500;
+        }
+
+
+         /* about page */
+
+         #about-page{
+            height: 1480px;
+            padding-top: 100px;
+        }
+      
+        #about-page h1{
+            text-align: center;
+            font-size: 40px;
+            padding: 105px 15px 30px;
+        }
+      
+        #about-page p{
+            font-size: 16px;
+            line-height: 2.5;
+            padding: 60px 50px;
+            text-align: left;
+        }
+
+        /* girls picks homepage */
+
+        #girls-picks{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 1400px;
+            padding-right: 200px;
+        }
+        
+
+         /* individual girls picks landing pages */
+
+        #girls-night-picks h1{
+            font-size: 2.8em;
+            text-align: center;
+            display: block;
+            width: 380px;
+            margin: 100px 80px 0;
+            padding: 30px 0;
+        }
+
+    .girls-night-picks-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .girls-night-picks-grid a {
+        margin: 30px 140px 50px 0;
+        width: 300px;
+    }
+    
+    .home-tile{
+        height: 300px;
+    }
+
+    .girls-night-picks-grid a span{
+        background-color: rgb(182, 126, 135);
+        display: block;
+        margin-top: 15px;
+        visibility: visible;
+    }
+
+    .girls-night-picks-img{
+        object-fit: cover;
+        width: 100%;
+        height: 180px;
+        border-radius: 10px;
+    }
+
+    .rating-circle{
+        display: none;
+    }
+
+
+        /* your picks page */
+
+        form{
+        color: white;
+        padding: 200px 100px 0 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-gap: 3em;
+        width: 90%;
+        max-width: 520px;
+        margin-bottom: 40px;
+        }
+
+            
+
+             
+}
