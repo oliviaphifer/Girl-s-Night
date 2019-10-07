@@ -2826,7 +2826,7 @@ $(document).ready(function(){
         //Fill in location contact details
         $(".info-name").text(locationName);
         $(".address-holder").text(locationAddress);
-        $(".website-holder").html(`<a target='_blank' onMouseOver="this.style.color='rgb(35,31,32)"' style='text-decoration: none' href='" + locationWebsite + "'>Visit Website</a>`);
+        $(".website-holder").html(`<a target='_blank' onMouseOver="this.style.color='white"' style='text-decoration: none; color: pink' href='" + locationWebsite + "'>Visit Website</a>`);
         $(".phone-holder").text(locationPhone);
         $(".map").html(`<iframe src='" + locationMapEmbed + "' frameborder='0' style='border:0' allowfullscreen></iframe>`);
 
